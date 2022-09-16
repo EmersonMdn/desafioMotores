@@ -1,0 +1,13 @@
+form(action="/productos" method="POST")
+    label(for="title")="Title"
+    input(type="text" name="title" id="title" ) 
+
+    label(for="price")="Price"
+    input(type="number" name="price" id="price") 
+
+    label(for="thumbnail")="Thumbnail"
+    input(type="text" name="thumbnail" id="thumbnail") 
+
+    button Enviar
+
+include include/list.pug

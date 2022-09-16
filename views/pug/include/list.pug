@@ -1,0 +1,10 @@
+table(style="background:red;border: 2px solid black")
+    tr 
+        th='Producto'
+        th='Precio'
+        th='Thumbnail'
+        each value in items
+            tr
+                td= value.title
+                td= value.price
+                td= value.thumbnail
